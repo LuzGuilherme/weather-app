@@ -102,10 +102,10 @@ main {
 
   body {
     position: fixed;
-    top: 51.5%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 800px;
-    height: 1000px;
+    height: 100vh;
   }
 }
