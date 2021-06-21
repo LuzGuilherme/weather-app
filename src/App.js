@@ -56,10 +56,12 @@ function App() {
 
   const background = () =>{
     if(typeof(weather.main) != "undefined"){
-      if(weather.main.temp > 16){
+      if(weather.main.temp > 20){
         return "app warm";
-      } else {
+      } else if (weather.main.temp < 13) {
         return "app"
+      } else {
+        return "app mid"
       }
     } else {
       return "app"
